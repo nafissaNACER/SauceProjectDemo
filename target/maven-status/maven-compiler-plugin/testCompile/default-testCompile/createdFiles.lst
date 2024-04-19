@@ -1,0 +1,8 @@
+SauceApp\pages\PageProduit.class
+SauceApp\suiteTests\SuiteLogin2.class
+SauceApp\utils\BaseTools.class
+SauceApp\suiteTests\SuiteLogin.class
+SauceApp\dataSet\Constant.class
+SauceApp\configuration\SetupTearDown.class
+SauceApp\pages\PageLogin.class
+SauceApp\configuration\ConfigFileReader.class

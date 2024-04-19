@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-19T08:58:39 WEST" name="All Test Suite" finished-at="2024-04-19T08:59:06 WEST" duration-ms="26831">
+    <groups>
+    </groups>
+    <test started-at="2024-04-19T08:58:39 WEST" name="C:/DEV_Formation/FormationAvril/ProjetSeleniumPF/src/test/java/SauceApp/suiteTests/SuiteLogin.java" finished-at="2024-04-19T08:59:06 WEST" duration-ms="26831">
+      <class name="SauceApp.suiteTests.SuiteLogin">
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin@5bd03f44]" started-at="2024-04-19T08:58:39 WEST" name="lunchBrowser" finished-at="2024-04-19T08:58:47 WEST" duration-ms="7732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="Test01_loginInvalide()[pri:0, instance:SauceApp.suiteTests.SuiteLogin@5bd03f44]" started-at="2024-04-19T08:58:47 WEST" name="Test01_loginInvalide" finished-at="2024-04-19T08:58:48 WEST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_loginInvalide -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin@5bd03f44]" started-at="2024-04-19T08:58:48 WEST" name="closeBrowser" finished-at="2024-04-19T08:58:48 WEST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SauceApp.suiteTests.SuiteLogin -->
+      <class name="SauceApp.suiteTests.SuiteLogin2">
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:58:48 WEST" name="lunchBrowser" finished-at="2024-04-19T08:58:55 WEST" duration-ms="6712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="Test02_loginValide2()[pri:1, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:58:55 WEST" name="Test02_loginValide2" finished-at="2024-04-19T08:58:56 WEST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_loginValide2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:58:56 WEST" name="closeBrowser" finished-at="2024-04-19T08:58:56 WEST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:58:56 WEST" name="lunchBrowser" finished-at="2024-04-19T08:59:05 WEST" duration-ms="8114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="Test01_loginInvalide2()[pri:2, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:59:05 WEST" name="Test01_loginInvalide2" finished-at="2024-04-19T08:59:05 WEST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_loginInvalide2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SauceApp.suiteTests.SuiteLogin2@7ed7259e]" started-at="2024-04-19T08:59:05 WEST" name="closeBrowser" finished-at="2024-04-19T08:59:06 WEST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SauceApp.suiteTests.SuiteLogin2 -->
+    </test> <!-- C:/DEV_Formation/FormationAvril/ProjetSeleniumPF/src/test/java/SauceApp/suiteTests/SuiteLogin.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

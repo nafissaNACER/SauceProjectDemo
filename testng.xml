@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/DEV_Formation/FormationAvril/ProjetSeleniumPF/src/test/java/SauceApp/suiteTests/SuiteLogin.java">
+        <classes>
+            <class name="SauceApp.suiteTests.SuiteLogin">
+                <methods>
+                    <include name="Test01_loginInvalide"/>
+                    <exclude name="Test02_loginValide"/>
+                </methods>
+            </class>
+            <class name="SauceApp.suiteTests.SuiteLogin2">
+                <methods>
+                    <include name="Test01_loginInvalide2"/>
+                    <include name="Test02_loginValide2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

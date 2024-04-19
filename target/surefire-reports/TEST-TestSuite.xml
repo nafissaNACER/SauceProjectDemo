@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.567" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\DEV_Formation\FormationAvril\ProjetSeleniumPF\target\test-classes;C:\DEV_Formation\FormationAvril\ProjetSeleniumPF\target\classes;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nnacer\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nnacer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nnacer\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nnacer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nnacer\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nnacer\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nnacer\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nnacer\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nnacer\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nnacer\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nnacer\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\nnacer\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nnacer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nnacer\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\nnacer\AppData\Local\Temp\surefire17134746756540760298\surefirebooter-20240419085838231_3.jar C:\Users\nnacer\AppData\Local\Temp\surefire17134746756540760298 2024-04-19T08-58-37_942-jvmRun1 surefire-20240419085838231_1tmp surefire_0-20240419085838231_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\DEV_Formation\FormationAvril\ProjetSeleniumPF\target\test-classes;C:\DEV_Formation\FormationAvril\ProjetSeleniumPF\target\classes;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nnacer\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nnacer\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nnacer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nnacer\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nnacer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nnacer\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nnacer\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nnacer\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nnacer\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nnacer\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nnacer\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nnacer\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\nnacer\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nnacer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nnacer\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nnacer"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\DEV_Formation\FormationAvril\ProjetSeleniumPF"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nnacer\AppData\Local\Temp\surefire17134746756540760298\surefirebooter-20240419085838231_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4+11-LTS-179"/>
+    <property name="webdriver.edge.driver" value="C:\toolsDev\edgedriver_win64\msedgedriver.exe"/>
+    <property name="user.name" value="nnacer"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nnacer\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nnacer\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="user.dir" value="C:\DEV_Formation\FormationAvril\ProjetSeleniumPF"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Users\nnacer\Tools\apache-maven-3.8.6\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Java\jdk-17.0.4\bin;%JENKINS_HOME%;C:\Users\nnacer\AppData\Local\Programs\Python\Python310\Scripts;C:\my_dev\chromedriver-win64;C:\Users\nnacer\Documents\tools\driver\firefox\geckodriver.exe;C:\Users\nnacer\AppData\Local\Android\Sdk\tools\bin;C:\Users\nnacer\AppData\Local\Android\Sdk\tools;C:\Users\nnacer\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\nnacer\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Formation_Appium\Android_Sdk\cmdline-tools\bin;C:\Users\nnacer\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\nnacer\AppData\Local\Programs\Python\Python310\;C:\Users\nnacer\AppData\Local\Microsoft\WindowsApps;C:\Users\nnacer\AppData\Local\Programs\Git\cmd;C:\Users\nnacer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nnacer\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4+11-LTS-179"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Test01_loginInvalide" classname="SauceApp.suiteTests.SuiteLogin" time="0.784">
+    <system-out><![CDATA[ verifier message d'erreur
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 20146
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+avr. 19, 2024 8:58:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test02_loginValide2" classname="SauceApp.suiteTests.SuiteLogin2" time="0.885">
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 52058
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+avr. 19, 2024 8:58:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test01_loginInvalide2" classname="SauceApp.suiteTests.SuiteLogin2" time="0.747">
+    <system-out><![CDATA[ verifier message d'erreur
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 9590
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+avr. 19, 2024 8:59:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
