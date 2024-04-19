@@ -23,5 +23,6 @@ public class SetupTearDown {
     @AfterMethod
     public void closeBrowser(){
         driver.quit();
+        System.out.println("end test");
     }
 }
