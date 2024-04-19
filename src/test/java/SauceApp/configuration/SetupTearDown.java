@@ -33,5 +33,6 @@ public class SetupTearDown {
         System.out.println("close browser");
         driver.quit();
         System.out.println("end test");
+        System.out.println("end test");
     }
 }
