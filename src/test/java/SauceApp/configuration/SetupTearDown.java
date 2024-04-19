@@ -12,6 +12,7 @@ public class SetupTearDown {
 
     @BeforeMethod
     public void lunchBrowser() {
+        System.out.println("lunch browser");
         System.setProperty("webdriver.edge.driver", "C:\\toolsDev\\edgedriver_win64\\msedgedriver.exe");
         driver = new EdgeDriver();
         driver.manage().window().maximize();
