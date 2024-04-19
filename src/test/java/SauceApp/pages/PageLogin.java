@@ -37,8 +37,11 @@ public class PageLogin extends BaseTools {
     // définition les methodes pour interagir avec les elements login
 
     public void seConnecter(String userName, String password) {
+        System.out.println("saisir non"+ userName);
         waitAndSendKeys(champsUserName, userName, default_time);
+        System.out.println("saisir non"+ password);
         waitAndSendKeys(champsPassword, password, default_time);
+        System.out.println("cliquer login");
         waitAndClick(boutonLogin, 40);
     }
 
